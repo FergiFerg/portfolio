@@ -67,10 +67,10 @@
         <span class="poppins text-violet-400">Developer</span>
       </h2>
       <p class="text-base sm:text-lg md:text-xl">
-        My <span class="text-violet-400">favourite tech</span> includes JavaScript,
-        Python, TailwindCSS, Node.js + Express.js & MongoDB!
-      </p>
-      <!-- <button
+        My <span class="text-violet-400">favourite tech</span> includes
+        JavaScript, Python, Java, Node.js + Express.js & MongoDB!
+        <!-- </p>  TailwindCSS -->
+        <!-- <button
         class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
       >
         <div
@@ -80,6 +80,7 @@
           <a href="#contact">Get in touch &rarr;</a>
         </h4>
       </button> -->
+      </p>
     </div>
   </section>
 
