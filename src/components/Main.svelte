@@ -4,26 +4,26 @@
   /**
    * @type {any[]}
    */
-  //   let steps = [
-  //     // {
-  //     //   name: "Smoljames Store",
-  //     //   icon: "fa-solid fa-cart-shopping",
-  //     //   description:
-  //     //     "Smoljames Store is a a merchanising store created with Next.js, Commerce.js & Stripe! Commerce.js is a CMS for managing project and Stripe is used for all transaction handling.",
-  //     // },
-  //     // {
-  //     //   name: "Utlimate Todos",
-  //     //   icon: "fa-solid fa-list-check",
-  //     //   description:
-  //     //     "Test for model robustness with customized test profiles and receive exhaustive reporting on the performance and potential vulnerabilities of your model.",
-  //     // },
-  //     // {
-  //     //   name: "Pokédex",
-  //     //   icon: "fa-solid fa-diagram-project",
-  //     //   description:
-  //     //     "Augment your datasets with our filters and dataset manipulations to ensure your models are trained on the highest quality datasets (coming soon).",
-  //     // },
-  //   ];
+  let steps = [
+    // {
+    //   name: " Store",
+    //   icon: "fa-solid fa-cart-shopping",
+    //   description:
+    //     " Store is a a merchanising store created with Next.js, Commerce.js & Stripe! Commerce.js is a CMS for managing project and Stripe is used for all transaction handling.",
+    // },
+    // {
+    //   name: "Utlimate Todos",
+    //   icon: "fa-solid fa-list-check",
+    //   description:
+    //     "Test for model robustness with customized test profiles and receive exhaustive reporting on the performance and potential vulnerabilities of your model.",
+    // },
+    // {
+    //   name: "Pokdex",
+    //   icon: "fa-solid fa-diagram-project",
+    //   description:
+    //     "Augment your datasets with our filters and dataset manipulations to ensure your models are trained on the highest quality datasets (coming soon).",
+    // },
+  ];
 
   let benefits = [
     {
@@ -67,20 +67,19 @@
         <span class="poppins text-violet-400">Developer</span>
       </h2>
       <p class="text-base sm:text-lg md:text-xl">
-        My <span class="text-violet-400">favourite tech</span> includes
-        JavaScript, Python, Java, Node.js + Express.js & MongoDB!
-        <!-- </p>  TailwindCSS -->
-        <!-- <button
+        My <span class="text-violet-400">favourite tech</span> includes JavaScript,
+        Python, Java, Node.js + Express.js & MongoDB!
+      </p>
+      <button
         class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
       >
         <div
           class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
         />
         <h4 class="relative z-9">
-          <a href="#contact">Get in touch &rarr;</a>
+          <a href="components/Footer.svelte#contact">Get in touch &rarr;</a>
         </h4>
-      </button> -->
-      </p>
+      </button>
     </div>
   </section>
 
