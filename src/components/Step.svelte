@@ -1,5 +1,5 @@
-<script>
-  export let step;
+<script lang="ts">
+  export let step: { href: string; icon: string; name: string };
 </script>
 
 <a
