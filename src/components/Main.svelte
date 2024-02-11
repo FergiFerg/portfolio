@@ -4,43 +4,51 @@
   /**
    * @type {any[]}
    */
-  let steps = [
-    // {
-    //   name: "Smoljames Store",
-    //   icon: "fa-solid fa-cart-shopping",
-    //   description:
-    //     "Smoljames Store is a a merchanising store created with Next.js, Commerce.js & Stripe! Commerce.js is a CMS for managing project and Stripe is used for all transaction handling.",
-    // },
-    // {
-    //   name: "Utlimate Todos",
-    //   icon: "fa-solid fa-list-check",
-    //   description:
-    //     "Test for model robustness with customized test profiles and receive exhaustive reporting on the performance and potential vulnerabilities of your model.",
-    // },
-    // {
-    //   name: "Pokédex",
-    //   icon: "fa-solid fa-diagram-project",
-    //   description:
-    //     "Augment your datasets with our filters and dataset manipulations to ensure your models are trained on the highest quality datasets (coming soon).",
-    // },
-  ];
+  //   let steps = [
+  //     // {
+  //     //   name: "Smoljames Store",
+  //     //   icon: "fa-solid fa-cart-shopping",
+  //     //   description:
+  //     //     "Smoljames Store is a a merchanising store created with Next.js, Commerce.js & Stripe! Commerce.js is a CMS for managing project and Stripe is used for all transaction handling.",
+  //     // },
+  //     // {
+  //     //   name: "Utlimate Todos",
+  //     //   icon: "fa-solid fa-list-check",
+  //     //   description:
+  //     //     "Test for model robustness with customized test profiles and receive exhaustive reporting on the performance and potential vulnerabilities of your model.",
+  //     // },
+  //     // {
+  //     //   name: "Pokédex",
+  //     //   icon: "fa-solid fa-diagram-project",
+  //     //   description:
+  //     //     "Augment your datasets with our filters and dataset manipulations to ensure your models are trained on the highest quality datasets (coming soon).",
+  //     // },
+  //   ];
 
   let benefits = [
     {
+      name: "Software Engineer - Incognito Software Systems",
+      description: `
+        <ul>
+          <li>• Worked with clients to design solutions based on customer requirements.</li>
+          <li>• Lead UI and QA effort by outlining test plan, delegating tasks to team members and publishing version releases.</li>
+          <li>• Gathered requirements and developed test plans and test cases for new development projects.</li>
+          <li>• Developed and implemented programs in JavaScript and Python to inject data into the ELK stack for customer visualizations.</li>
+          <li>• Assisted customers with upgrades, troubleshooting services, and issue identification in production environments.</li>
+          <li>• Application configuration and management in OpenShift, OpenStack, AWS, CloudStack.</li>
+          <li>• Managed and Improved the CI/CD pipeline with Jenkins for the team.</li>
+          <li>• Utilized open-source tools within development such as Kafka, Elasticsearch, and MongoDB in multi-cluster setups.</li>
+        </ul>
+      `,
+    },
+    {
       metric: "10x",
       name: "Computer Science Graduate",
-      description:
-        "I fell in love with the creativity and problem solving that is involved in developing and engineering innovative new online experiences. Starting of with JavaScript, HTML & CSS and evolving my knowledge base to include JavaScript frameworks, Python, Java and backend programming, design, cloud services and much much more.",
+      description: `I fell in love with the creativity and problem solving that is involved in developing and engineering innovative new online experiences. Starting of with JavaScript, HTML & CSS and evolving my knowledge base to include JavaScript frameworks, Python, Java and backend programming, design, cloud services and much much more.`,
     },
-    // {
-    //   name: "a product design & UX finatic",
-    //   description:
-    //     "Carefully crafting and designing amazing user experiences allows me to express and experiment with every morsel of creativity I have. I love the challenge of learning new design concepts and enabling users with amazing online experiences.",
-    // },
     {
       name: "An excellent communicator",
-      description:
-        "Communication is key and it's a paramount value of mine. I believe in transparency and constructive communication above all else. This helps me develop deep relationships and ensures my effectiveness and productivity in any work space with any team.",
+      description: `Communication is key and it's a paramount value of mine. I believe in transparency and constructive communication above all else. This helps me develop deep relationships and ensures my effectiveness and productivity in any work space with any team.`,
     },
   ];
 </script>
@@ -59,7 +67,7 @@
         <span class="poppins text-violet-400">Developer</span>
       </h2>
       <p class="text-base sm:text-lg md:text-xl">
-        My <span class="text-violet-400"> favorite tech</span> includes JavaScript,
+        My <span class="text-violet-400">favorite tech</span> includes JavaScript,
         Python, TailwindCSS, Node.js + Express.js & MongoDB!
       </p>
       <button
@@ -71,66 +79,12 @@
         <h4 class="relative z-9">Get in touch &rarr;</h4>
       </button>
     </div>
-    <!-- <div class="relative shadow-2xl grid place-items-center">
-      <img
-        src={"images/profile.png"}
-        alt="Zetane Engine"
-        class="object-cover z-[2] max-h-[70vh]"
-      />
-    </div> -->
-    <!-- <div  class="flex p-0.5 relative max-w-[700px] w-full mx-auto">
-            <div
-                class="absolute inset-0 overflow-hidden rounded-md flex items-center justify-center"
-            >
-                <div
-                    class="bg-gradient-to-r absolute inset-[-20px]  from-violet-800 to-indigo-800 specialSpin"
-                />
-            </div>
-
-            <img
-                src={"images/zetane-engine.jpeg"}
-                alt="Zetane Engine"
-                class="w-full h-full object-cover z-[2]"
-            />
-        </div> -->
   </section>
-  <section class="py-20 lg:py-32 flex flex-col gap-24" id="projects">
-    <!-- <div class="flex flex-col gap-2 text-center">
-      <h6 class="text-large sm:text-xl md:text-2xl">
-        A few of my creative endeavors.
-      </h6>
-      <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-        Curious to <span class="poppins text-violet-400">see</span> my work?
-      </h3>
-    </div> -->
 
-    <!-- <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
-      <Step step={steps[0]}>
-        <p>
-          Smoljames Store is a a merchanising store created with <strong
-            class="text-violet-400"
-            >Next.js, Commerce.js, Stripe & Node.js + Express.js!</strong
-          > Commerce.js is a product CMS and Stripe is used for all transaction handling.
-        </p>
-      </Step>
-      <Step step={steps[1]}>
-        <p>
-          Ultimate Todos is a Full Stack <strong class="text-violet-400"
-            >Node.js</strong
-          >,
-          <strong class="text-violet-400">Node.js + Express.js</strong>
-          & <strong class="text-violet-400">Firebase</strong> CRUD application that
-          allows a user to login, manage a tidy and efficacious todo list, and persist
-          this information across devices.
-        </p>
-      </Step>
-    </div> -->
-  </section>
   <section
     id="about"
     class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative"
   >
-    <!-- <div class="z-[-1] bg-violet-950 w-screen left-1/2 -translate-x-1/2 top-0 h-full absolute"> </div> -->
     <div
       class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4"
     >
@@ -144,21 +98,6 @@
     </p>
     <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px]">
       {#each benefits as benefit, index}
-        <!-- <div class="flex flex-col gap-2 mx-auto">
-                    <div class="flex items-end gap-4">
-                        <p
-                            class="poppins text-6xl sm:text-7xl md:text-8xl text-slate-500 font-medium"
-                        >
-                            {benefit.metric}
-                        </p>
-                        <p
-                            class="text-xl sm:text-2xl md:text-3xl capitalize pb-2"
-                        >
-                            {benefit.name}
-                        </p>
-                    </div>
-                    <p class="text-center italic">- {benefit.description}</p>
-                </div> -->
         <div class="flex gap-6 sm:gap-8">
           <p
             class="poppins text-4xl sm:text-5xl md:text-6xl text-slate-500 font-semibold"
@@ -169,7 +108,9 @@
             <h3 class="text-2xl sm:text-3xl md:text-5xl">
               {benefit.name}
             </h3>
-            <p>{benefit.description}</p>
+            <ul>
+              {@html benefit.description}
+            </ul>
           </div>
         </div>
       {/each}
@@ -178,8 +119,5 @@
     <div
       class="flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto w-full"
     />
-    <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
-      <p>Scroll to see more &rarr;</p>
-    </div>
   </section>
 </main>
