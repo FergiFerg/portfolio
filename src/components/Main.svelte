@@ -33,7 +33,7 @@
           <li>• Worked with clients to design solutions based on customer requirements.</li>
           <li>• Lead UI and QA effort by outlining test plan, delegating tasks to team members and publishing version releases.</li>
           <li>• Gathered requirements and developed test plans and test cases for new development projects.</li>
-          <li>• Developed and implemented programs in JavaScript and Python to inject data into the ELK stack for customer visualizations.</li>
+          <li>• Developed and implemented custom report creation programs in JavaScript and Python utilizing MongoDB to inject data into <a href="https://www.elastic.co/elastic-stack/?utm_campaign=Google-B-AMER-CA-Exact&utm_content=Brand-Core-ELK&utm_source=google&utm_medium=cpc&device=c&utm_term=elk%20elasticsearch&gad_source=1&gclid=CjwKCAiA_aGuBhACEiwAly57MdAv-dI_mT7XSaKe-ennTv2iqOFune4Qi8rZcGYvw_QcEuVJ8Ra2nRoCbpcQAvD_BwE" target="_blank" class="text-blue-500 underline">ELK</a> for customer visualizations.</li>
           <li>• Assisted customers with upgrades, troubleshooting services, and issue identification in production environments.</li>
           <li>• Application configuration and management in OpenShift, OpenStack, AWS, CloudStack.</li>
           <li>• Managed and Improved the CI/CD pipeline with Jenkins for the team.</li>
