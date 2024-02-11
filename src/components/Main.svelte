@@ -44,7 +44,7 @@
     {
       metric: "10x",
       name: "Computer Science Graduate",
-      description: `I fell in love with the creativity and problem solving that is involved in developing and engineering innovative new online experiences. Starting of with JavaScript, HTML & CSS and evolving my knowledge base to include JavaScript frameworks, Python, Java and backend programming, design, cloud services and much much more.`,
+      description: `I fell in love with the creativity and problem solving that is involved in developing and engineering innovative new online experiences. Starting off with JavaScript, HTML & CSS and evolving my knowledge base to include JavaScript frameworks, Python, Java and backend programming, design, cloud services and much much more.`,
     },
     {
       name: "An excellent communicator",
